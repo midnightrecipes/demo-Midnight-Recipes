@@ -71,7 +71,7 @@ window.MIDNIGHT_RECIPES = [
     source:'Restaurant',
     original:'Misen 味仙, Nagoya, Japan',
     dish:'Taiwan Ramen — Taiwan Mince',
-    cuisine:'Japanese',
+    cuisine:'Taiwan',
     course:'Main Dishes',
     meal:'Main Dishes',
     categories:['Main Dishes'],
@@ -268,6 +268,112 @@ Tonight, I wanted to enjoy it a little differently: soft, slightly tart apples t
     usualsCategory:''
   },
 
+
+  {
+    slug:'mexican-calabaza-en-tacha-pumpkin-pie',
+    title:'Mexican (Calabaza en Tatcha) Pumpkin Pie',
+    source:'Movie & TV', sourceSecondary:'Family & Tradition', dish:'Calabaza en Tacha-inspired Pumpkin Pie', cuisine:'Mexican',
+    course:'Baking', courseDisplay:'Baking, Desserts', meal:'Baking', categories:['Baking','Desserts'], ingredientCategories:['Vegetable','Pie'],
+    dateAdded:'2026-09-27', timeStamp:'11:48 PM',
+    tags:['Movie','Coco','Pie','Mexican','Pumpkin','DíaDeMuertos','Ofrenda','CalabazaenTacha','Baking','Dessert'],
+    heroImage:'images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/hero.jpg',
+    recipeTitle:'Calabaza en Tacha Pumpkin Pie', showPan:true,
+    recipeImage:'images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/recipe.jpg',
+    cardImage:'images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/hero.jpg', stepImages:[], usesUsual:'building-block-pie-crust',
+    story:`Mexico's **Día de Muertos**, the traditional celebration featured in the movie *Coco*, centers around remembering and welcoming loved ones who have passed away.
+
+Celebrated especially on November 1 and 2, families create **ofrendas**, or altars, decorated with photographs, candles, marigolds, and foods that their loved ones enjoyed.
+
+**Calabaza en Tacha** is a traditional seasonal pumpkin sweet that can also be offered on ofrendas. Traditionally, pieces of pumpkin are slowly cooked with **piloncillo (panela)**, cinnamon, and sometimes cloves, anise, and orange until they become tender and coated in a rich syrup.
+
+Japan has its own summer tradition of welcoming ancestral spirits during Obon. But I wasn't familiar with a tradition that celebrates and remembers the dead in such a bright and lively way. When I watched *Coco*, I found that beauty really special.
+
+Tonight, I'm making a pumpkin pie inspired by Calabaza en Tacha — and taking a moment to remember the people I love.`,
+    ingredientFile:[
+      {name:'PUMPKIN PURÉE',details:[['Origin','North America / Mexico-inspired'],['Flavor','Earthy, naturally sweet, mellow'],['Where to find','Canned pumpkin purée at Toronto grocery stores'],['Substitute','Homemade roasted pumpkin purée'],['Storage','Refrigerate opened purée in an airtight container for up to 3–4 days.']]},
+      {name:'DARK BROWN SUGAR + MOLASSES',details:[['Role','Creates the deep, caramel-like sweetness needed to mimic the flavor of piloncillo.'],['Why Dark Brown Sugar + Molasses?','Traditional Calabaza en Tacha is commonly made with pieces of **piloncillo (panela)**. Since piloncillo isn\'t what I have in my pantry, dark brown sugar with a little molasses gives me a similar deep, slightly bitter caramel character.'],['Substitute','If molasses is unavailable, use additional dark brown sugar, although the flavor will be lighter and less complex.']]},
+      {name:'CINNAMON STICK',details:[['Origin','Mexico / Southeast Asia'],['Flavor','Warm, woody, sweet'],['Why whole','Infusing the Half & Half creates a softer, rounder spice flavor without making the pie taste like conventional pumpkin spice.']]},
+      {name:'STAR ANISE',details:[['Flavor','Sweet, aromatic, lightly licorice-like'],['Why whole','A small amount adds a distinctive aromatic note found in some versions of Calabaza en Tacha.']]},
+      {name:'WHOLE CLOVES',details:[['Flavor','Warm, intense, slightly sweet and peppery'],['Why whole','Whole cloves are easier to control when infusing. They give the Half & Half a gentle clove aroma without the stronger, more concentrated flavor of ground cloves.']]},
+      {name:'ORANGE PEEL',details:[['Flavor','Bright, citrusy, slightly bitter'],['Why peel','The fragrant oils are infused into the Half & Half rather than adding grated zest directly to the custard. This gives the pie a softer, more rounded orange aroma.']]}
+    ],
+    stats:{prep:'25 mins',cook:'55–65 mins',total:'1 hr 30 mins',serves:'8',pan:'23 cm / 9-inch pie dish',quest:'⭐⭐⭐⭐☆'},
+    ingredients:[
+      {group:'PIE CRUST',usualSlug:'building-block-pie-crust',usualLabel:'One of our usuals: Building Block Pie Crust'},
+      {group:'CALABAZA FILLING'},
+      {amount:400,unit:'g',item:'pumpkin purée'}, {amount:2,unit:'large',item:'eggs'}, {amount:180,unit:'ml',item:'Half & Half / 10% cream'},
+      {amount:60,unit:'g',item:'dark brown sugar'}, {amount:10,unit:'g',item:'molasses'}, {amount:15,unit:'ml',item:'orange juice'}, {amount:0.25,unit:'tsp',item:'salt'},
+      {group:'SPICE INFUSION'},
+      {amount:0.5,unit:'',item:'cinnamon stick'}, {amount:2,unit:'',item:'whole cloves'}, {amount:1,unit:'',item:'star anise'}, {amount:1,unit:'strip',item:'orange peel, about 2–3 cm long'},
+      {group:'ORANGE-MOLASSES SYRUP'},
+      {amount:35,unit:'g',item:'dark brown sugar'}, {amount:5,unit:'g',item:'molasses'}, {amount:30,unit:'ml',item:'orange juice'}, {amount:15,unit:'ml',item:'water'},
+      {amount:1,unit:'strip',item:'orange peel, about 2–3 cm long'}, {unit:'',item:'Pinch of salt'}
+    ],
+    steps:[
+      {number:'01',title:'MAKE THE CRUST',clock:'11:48 PM',paragraphs:['Start with one recipe of **Building Block Pie Crust.**'],stepNote:'**Midnight Shortcut:** Use a good-quality store-bought pie crust. Tonight is about the filling.',stepPhotos:['images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step01-1.jpg']},
+      {number:'02',title:'INFUSE THE SPICES',clock:'12:05 AM',paragraphs:['Pour **180 ml Half & Half** into a small saucepan.','Add **½ cinnamon stick**, **2 whole cloves**, **1 star anise**, and **1 strip of orange peel (2–3 cm)**.','Warm gently over low heat for **10 minutes**. Do not let the Half & Half boil.','Turn off the heat and let the spices steep for another **10 minutes**.','Remove the cinnamon stick, cloves, star anise, and orange peel.','For a brighter, less bitter citrus aroma, remove the orange peel after **5–10 minutes** while leaving the other spices to steep.','While the infused Half & Half is still warm, whisk in **60 g dark brown sugar** and **10 g molasses** until completely dissolved.'],stepNote:'**Midnight Note:** This is what keeps the pie from tasting like ordinary pumpkin spice. Instead of adding powdered spices directly to the custard, the whole spices are gently infused into the dairy.',stepPhotos:['images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step02-1.jpg']},
+      {number:'03',title:'MAKE THE FILLING',clock:'12:18 AM',paragraphs:['In a large bowl, whisk together **400 g pumpkin purée**, **2 large eggs**, **15 ml orange juice**, and **¼ tsp salt**.','Slowly pour in the warm spiced Half & Half mixture.','Whisk gently until everything is smooth and evenly combined.','Avoid overmixing or whipping in too much air.'],stepPhotos:['images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step03-1.jpg']},
+      {number:'04',title:'BAKE',clock:'12:22 AM',paragraphs:['Reduce the oven temperature to **175°C**.','Pour the pumpkin filling into the blind-baked crust.','Bake for **40–50 minutes**.','The edges should be set while the center still has a **slight wobble** when the pie is gently shaken.','Remove from the oven.','Let the pie cool completely before adding the syrup.','Don\'t worry if the center looks slightly soft when it first comes out. The custard will continue to set as it cools.'],stepPhotos:['images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step04-1.jpg']},
+      {number:'05',title:'MAKE THE ORANGE-MOLASSES SYRUP',clock:'12:45 AM',paragraphs:['Add **35 g dark brown sugar**, **5 g molasses**, **30 ml orange juice**, **15 ml water**, **1 strip of orange peel (2–3 cm)**, and **a pinch of salt** to a small saucepan.','Bring to a gentle simmer over medium-low heat.','Cook for **3–5 minutes**, stirring occasionally, until the sugar has dissolved and the syrup has thickened slightly.','Remove the orange peel.','Let the syrup cool slightly.','The syrup will continue to thicken as it cools.'],stepPhotos:['images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step05-1.jpg']},
+      {number:'06',title:'FINISH',clock:'12:55 AM',paragraphs:['Once the pie has cooled completely, brush or spoon a **thin layer of the orange-molasses syrup** over the surface.','If desired, drizzle with another **1–2 teaspoons of syrup** just before serving.','Don\'t drown the pie in syrup. The goal is a glossy, concentrated finish rather than a very sweet topping.'],stepPhotos:['images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step06-1.jpg']}
+    ],
+    notes:[
+      ['Recreating the Flavor','The original Calabaza en Tacha gets much of its character from pumpkin slowly cooked in a dark piloncillo syrup with warm spices.\n\nInstead of putting those flavors directly into a standard pumpkin custard, I split them into two layers:\n\n**Spiced Half & Half → Orange-Molasses Syrup**\n\nThe Half & Half carries the cinnamon, clove, star anise, and orange aroma into the custard, while the syrup recreates the darker caramelized sweetness associated with piloncillo.'],
+      ['Midnight Compromises','Traditional Calabaza en Tacha is made with pieces of pumpkin cooked directly in syrup. This isn\'t that.\n\nI used canned pumpkin purée and turned the same flavor profile into a creamy pumpkin pie — because at midnight, opening a can beats peeling and simmering an entire pumpkin.\n\nI also don\'t have piloncillo, so dark brown sugar and a little molasses stand in for its deep, almost caramel-like flavor.'],
+      ['Why No Pumpkin Spice?','No ground cinnamon.\n\nNo nutmeg.\n\nNo ginger.\n\nInstead, the spices are infused whole into the Half & Half.\n\nIt\'s warmer, more aromatic, and closer to the syrupy character I wanted from Calabaza en Tacha.']
+    ],
+    finePrint:{'Best eaten':'The next day or fully cooled the same night','Make ahead':'Yes','Storage':'Cover and refrigerate for up to 3 days','Reheat':'Best served cold or at room temperature; no reheating necessary','Syrup':'Store separately in the refrigerator for up to 5 days'},
+    tags:['Movie','Coco','Pie','Mexican','Pumpkin','DíaDeMuertos','Ofrenda','CalabazaenTacha','Baking','Dessert'], mainIngredients:['Pumpkin','Orange','Cinnamon','Molasses'],
+    footerRating:'★★★★★', footerInspiredBy:'Calabaza en Tacha', footerCuisine:'Mexican, Canadian, North American', footerCourse:'Baking · Dessert', footerMainIngredients:['Pumpkin','Orange','Cinnamon','Molasses']
+  },
+  {
+    slug:'banana-banana-cream-pie', title:'Banana Banana Cream Pie', source:'Midnight Experiment', dish:'Banana Cream Pie', cuisine:'American',
+    course:'Baking', courseDisplay:'Baking, Dessert', meal:'Baking', categories:['Baking','Desserts'], ingredientCategories:['Fruit','Pie','Eggs','Pantry'], dateAdded:'2026-09-27', timeStamp:'2:50 AM',
+    tags:['Dessert','Baking','Banana','Pie'], heroImage:'', recipeImage:'', cardImage:'', stepImages:[],
+    story:`A few nearly black bananas had been sitting on my counter for way too long. They were way past the point where I'd normally eat them, but honestly, they were perfect for this pie.
+
+I started looking through banana cream pie recipes and noticed that most of them use just a few slices of fresh banana underneath a whole lot of custard.
+
+I wanted a pie that was seriously banana-y. Not just vanilla custard with a few banana slices hiding underneath.
+
+So I took those super-ripe bananas, cooked them down in a skillet until they were thick and sweet, and blended them right into the custard. Then I tucked fresh banana underneath for a little texture and that beautiful banana cross-section when you slice into it.
+
+Basically, this pie is my answer to one very simple question:
+
+**What if we just put way more banana in banana cream pie?**`,
+    ingredientFile:[
+      {name:'BANANA',details:[['Origin','Global / Tropical'],['Flavor','Deep, caramel-like when roasted; fresh and aromatic when raw. The blacker, the better!'],['Where to find','Your Kitchen Counter'],['Storage','Room temperature until fully ripe.'],['Why cook?','Cooking the bananas in a skillet drives off excess moisture and concentrates their natural sugars, creating a thick, jammy texture and deep banana flavor without adding extra sugar.']]},
+      {name:'PLAIN BISCUITS',details:[['Substitute','Biscoff cookies'],['Midnight Fix','If using 200g Biscoff, skip the cinnamon, ginger, and nutmeg. Simply combine the crumbs with 80g melted butter.']]},
+      {name:'3.25% MILK',details:[['Why 3.25%','The higher fat content gives the filling a richer, creamier mouthfeel.'],['Substitute','2% milk works too, but the filling will be slightly lighter.']]}
+    ],
+    stats:{prep:'20 mins',cook:'30 mins',chill:'3+ hrs',total:'3 hrs 50 mins',serves:'6–8',pan:'9-inch / 23 cm pie plate',quest:'⭐⭐⭐☆☆'}, showPan:true, showChill:true,
+    ingredients:[
+      {group:'For Crust'},
+      {amount:200,unit:'g',item:'plain biscuits, finely crushed'}, {amount:0.5,unit:'tsp',item:'ground cinnamon'}, {amount:0.25,unit:'tsp',item:'ground ginger'}, {amount:1,unit:'pinch',item:'ground nutmeg'}, {amount:0.25,unit:'tsp',item:'salt'}, {amount:80,unit:'g',item:'unsalted butter, melted'},
+      {group:'For Filling'},
+      {amount:3,unit:'',item:'bananas (approx. 250 g flesh), very ripe and mashed'}, {amount:2,unit:'',item:'firm-ripe bananas, cut in half lengthwise'}, {amount:400,unit:'ml',item:'3.25% milk'}, {amount:3,unit:'large',item:'egg yolks'}, {amount:35,unit:'g',item:'granulated sugar'}, {amount:35,unit:'g',item:'cornstarch'}, {amount:1,unit:'tsp',item:'vanilla extract'}, {amount:1,unit:'pinch',item:'salt'},
+      {group:'For Topping (Optional)'},
+      {amount:150,unit:'ml',item:'heavy cream'}, {minAmount:1,maxAmount:2,unit:'Tbsp',item:'sugar, to taste'}, {unit:'',item:'Cinnamon or banana chips, to finish'}
+    ],
+    steps:[
+      {number:'01',title:'TURN IT UP',clock:'2:55 AM',paragraphs:['Preheat your oven to **180°C (350°F)**.'],stepPhotos:[]},
+      {number:'02',title:'MAKE IT JAMMY',clock:'2:56 AM',paragraphs:['Cook **3 (approx. 250 g) mashed very ripe banana** in a nonstick skillet over medium-low heat for 8–12 minutes, stirring often.','Keep cooking until the moisture cooks off and the banana turns thick, glossy, and jammy.','No sugar. No butter. Just banana.','Set aside.'],stepPhotos:[]},
+      {number:'03',title:'FAKE THE BISCOFF',clock:'3:08 AM',paragraphs:['Crush **200 g plain biscuits** finely.','**Food Processor (Fastest):** Pulse for about 30 seconds.','**Quiet Mode (Silent):** Seal in a zip-top bag and roll with a rolling pin—perfect for late-night baking.','Mix with **1/2 tsp cinnamon**, **1/4 tsp ginger**, **1 pinch nutmeg**, **1/4 tsp salt**, and **80 g melted butter**.','Press firmly into a 9-inch (23 cm) pie dish.','Bake for 8–10 minutes, then let cool.'],stepNote:'**Midnight Shortcut:** Skip the oven entirely! Just press the crust into the dish and freeze it while making the filling. It won\'t be quite as toasted, but it sets super fast.',stepPhotos:[]},
+      {number:'04',title:'MAKE IT THICK',clock:'3:20 AM',paragraphs:['Whisk **35 g sugar**, **35 g cornstarch**, and **1 pinch salt** in a saucepan.','Gradually whisk in **400 ml milk** until smooth.','Cook over medium heat, whisking constantly, until the custard becomes very thick and starts to bubble.','Keep whisking and cook for another 1–2 minutes after it starts bubbling.','It should be thick enough that the whisk leaves a clear trail and the custard slowly fills it back in.','Remove from heat.','Whisk **3 egg yolks** in a bowl.','Slowly add the hot custard, a little at a time, whisking constantly.','Once the egg yolks are warmed through, pour everything back into the saucepan.','Return to low heat and cook for 1 minute, whisking constantly, until thick and glossy.','Remove from the heat and stir in **1 tsp vanilla extract**.'],stepPhotos:[]},
+      {number:'05',title:'BLEND THE BANANA IN',clock:'3:30 AM',paragraphs:['Add the concentrated **banana** to the warm custard.','Blend until completely smooth and silky.','**Quiet Mode (Silent):** Want a little texture? Skip the food processor and stir it in by hand.'],stepPhotos:[]},
+      {number:'06',title:'HIDE THE BANANAS',clock:'3:35 AM',paragraphs:['Peel the **2 firm-ripe bananas** and cut each one in half lengthwise.','Arrange banana halves along the outer edge of the cooled crust, flat-side down.','Pour the banana cream over the top and smooth the surface.'],stepPhotos:[]},
+      {number:'07',title:'NOW WE WAIT',clock:'3:40 AM',paragraphs:['Refrigerate for at least **4 hours**. Overnight is even better!','Optional:','Whip **150 ml cold heavy cream** to soft peaks.','Add **1–2 Tbsp sugar** and whip to medium-firm peaks.','Dollop over the chilled pie and finish with cinnamon or banana chips, if you like.'],stepPhotos:[]}
+    ],
+    notes:[
+      ['Midnight (Non)Compromises','Even in the middle of the night, concentrating the bananas is a non-negotiable.\n\nThose nearly black bananas are already packed with natural sweetness, so instead of adding more sugar, I cook them down in a skillet until their moisture evaporates and their natural sugars become concentrated.'],
+      ['Experiment 1: The Banana Shape','Putting whole round banana slices in the pie made the banana presence too overwhelming.\n\nThe slices took over each bite and made the texture feel repetitive.\n\nCutting the fresh bananas **in half lengthwise** solved that problem.\n\nThe larger pieces create a clean cross-section while giving the pie a firm, juicy banana texture that contrasts with the smooth filling.'],
+      ['Experiment 2: Concentrating the Banana','Simply mashing overripe bananas into the custard didn\'t give the banana flavor enough intensity.\n\nCooking the **banana** in a skillet first changed everything.\n\nThe excess moisture cooks away, the natural sugars become concentrated, and the banana develops a deeper, almost caramel-like flavor.'],
+      ['Experiment 3: Blend it All Together','I originally considered keeping the banana and vanilla custards separate, but that meant making two different layers and adding extra steps.\n\nInstead, I decided to blend the concentrated banana directly into the finished custard.\n\nThe food processor turns everything into a completely smooth, silky banana cream while keeping the process simple.\n\nThe result is a filling that tastes intensely of banana from the first bite to the last.'],
+      ['The Result','The final pie has a simple but satisfying contrast.\n\nThe fresh banana gives it texture, the concentrated banana brings depth, and the whipped cream adds a light finish.\n\nMost importantly, the banana isn\'t just sitting somewhere underneath the custard.\n\n**The banana is the custard!**']
+    ],
+    finePrint:{'Best eaten':'Next Day (after chilling thoroughly)','Make ahead':'Yes','Storage':'Airtight container in the fridge for up to 3 days','Reheat':'Enjoy chilled straight from the fridge'},
+    mainIngredients:['Banana','Milk','Egg Yolks','Biscuits'], footerRating:'★★★★★', footerInspiredBy:'Midnight Experiment', footerCuisine:'American', footerCourse:'Baking, Dessert', footerMainIngredients:['Banana','Milk','Egg Yolks','Biscuits']
+  },
   {
     slug:'building-block-pie-crust', title:'Building Block Pie Crust', source:'The Usuals', cuisine:'American', course:'Baking', courseDisplay:'Baking', meal:'Baking', categories:['Baking'], ingredientCategories:['Pie'], dateAdded:'2026-09-27', timeStamp:'',
     isUsuals:true, usualsCategory:'BASES & CRUSTS',
@@ -300,7 +406,6 @@ Tonight, I wanted to enjoy it a little differently: soft, slightly tart apples t
       ['Glass Pie Dish','Glass heats more gently than metal, so give the crust enough time to dry and lightly brown. Avoid over-browning during the blind-bake.'],
       ['Midnight Compromise','No rolling pin, pastry board, or complicated pastry work. Press the dough directly into the pie dish, and everything stays contained and easy to clean up.']
     ],
-    foundIn:['Classic Pumpkin Pie','Sweet Potato Ginger Pie','Mexican (Calabaza en Tacha) Pumpkin Pie'],
     tags:['The Usuals','Bases & Crusts','Pie'], mainIngredients:['Flour','Butter','Salt','Pie']
   },
 

@@ -1036,11 +1036,12 @@ html,body{max-width:100%;overflow-x:hidden}
 .recipe-card .ing li > span > b{font-weight:700;}
 .recipe-card .ing .group{font-weight:700;}
 
-/* Final Step Photo layout: up to 3 columns on PC, up to 2 columns on mobile. */
+/* Final Step Photo layout: fixed-size cells — 4 columns on PC, 2 columns on narrower screens. */
 .recipe-card .step-photos{
   display:grid;
-  grid-template-columns:repeat(3,minmax(0,1fr));
+  grid-template-columns:repeat(4,minmax(0,1fr));
   gap:12px;
+  width:100%;
 }
 .recipe-card .step-photos .photo-frame{
   width:100%;
@@ -1064,4 +1065,3 @@ html,body{max-width:100%;overflow-x:hidden}
     gap:8px;
   }
 }
-

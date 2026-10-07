@@ -134,3 +134,8 @@ The supplied source did not include the actual external recipe-photo files or th
 - Share / Print / Save are compact, inline actions.
 - `timeStamp`, `heroImage`, and per-step `stepPhotos` remain data-driven.
 - Back to Top and Recipe-page wave decoration are removed.
+
+
+## v108 image behavior
+
+Runtime image display does not depend on image-manifest.json. Recipe image paths use the recipe slug and the standard `hero.jpg` / `recipe.jpg` naming, while existing explicit image paths in data.js remain supported so the v107 design and existing GitHub-hosted images are preserved. Step photos support 0–4 explicitly listed images per step. New GitHub images can use the standard `step-01-01.jpg` through `step-04-04.jpg` naming when added to a recipe folder.

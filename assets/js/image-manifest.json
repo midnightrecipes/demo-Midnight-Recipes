@@ -9,9 +9,79 @@
     "recipe": null,
     "steps": {}
   },
+  "banana-banana-cream-pie": {
+    "hero": "images/recipes/banana-banana-cream-pie/hero.jpg",
+    "recipe": "images/recipes/banana-banana-cream-pie/recipe.jpg",
+    "steps": {
+      "01": [
+        "images/recipes/banana-banana-cream-pie/step-01-01.JPG",
+        "images/recipes/banana-banana-cream-pie/step-01-02.JPG",
+        "images/recipes/banana-banana-cream-pie/step-01-03.JPG"
+      ],
+      "02": [
+        "images/recipes/banana-banana-cream-pie/step-02-01.JPG",
+        "images/recipes/banana-banana-cream-pie/step-02-02.JPG",
+        "images/recipes/banana-banana-cream-pie/step-02-03.JPG"
+      ],
+      "03": [
+        "images/recipes/banana-banana-cream-pie/step-03-01.JPG",
+        "images/recipes/banana-banana-cream-pie/step-03-04.JPG"
+      ],
+      "04": [
+        "images/recipes/banana-banana-cream-pie/step-04-01.jpg",
+        "images/recipes/banana-banana-cream-pie/step-04-02.JPG",
+        "images/recipes/banana-banana-cream-pie/step-04-03.JPG",
+        "images/recipes/banana-banana-cream-pie/step-04-04.JPG"
+      ],
+      "05": [
+        "images/recipes/banana-banana-cream-pie/step-05-01.jpg",
+        "images/recipes/banana-banana-cream-pie/step-05-02.JPG"
+      ],
+      "06": [
+        "images/recipes/banana-banana-cream-pie/step-06-01.JPG",
+        "images/recipes/banana-banana-cream-pie/step-06-02.JPG",
+        "images/recipes/banana-banana-cream-pie/step-06-04.JPG"
+      ]
+    }
+  },
   "chocolate-cream-comfort-pie": {
     "hero": "images/recipes/chocolate-cream-comfort-pie/hero.jpg",
     "recipe": null,
-    "steps": {}
+    "steps": {
+      "01": [
+        "images/recipes/chocolate-cream-comfort-pie/step-01-01.jpg"
+      ],
+      "02": [
+        "images/recipes/chocolate-cream-comfort-pie/step-02-01.jpg"
+      ],
+      "03": [
+        "images/recipes/chocolate-cream-comfort-pie/step-03-01.jpg"
+      ],
+      "04": [
+        "images/recipes/chocolate-cream-comfort-pie/step-04-01.jpg"
+      ],
+      "05": [
+        "images/recipes/chocolate-cream-comfort-pie/step-05-01.jpg"
+      ]
+    }
+  },
+  "sweet-potato-ginger-pie": {
+    "hero": "images/recipes/sweet-potato-ginger-pie/hero.jpg",
+    "recipe": "images/recipes/sweet-potato-ginger-pie/recipe.jpg",
+    "steps": {
+      "01": [
+        "images/recipes/sweet-potato-ginger-pie/step-01-01.JPG",
+        "images/recipes/sweet-potato-ginger-pie/step-01-02.JPG"
+      ],
+      "03": [
+        "images/recipes/sweet-potato-ginger-pie/step-03-01.JPG",
+        "images/recipes/sweet-potato-ginger-pie/step-03-02.JPG",
+        "images/recipes/sweet-potato-ginger-pie/step-03-03.JPG"
+      ],
+      "04": [
+        "images/recipes/sweet-potato-ginger-pie/step-04-01.JPG",
+        "images/recipes/sweet-potato-ginger-pie/step-04-02.JPG"
+      ]
+    }
   }
 }

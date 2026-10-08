@@ -1,0 +1,45 @@
+name: Generate Recipe Image Manifest
+
+on:
+  push:
+    paths:
+      - 'images/recipes/**'
+      - '.github/scripts/generate-image-manifest.py'
+      - '.github/workflows/generate-image-manifest.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Generate image manifest
+        run: python .github/scripts/generate-image-manifest.py
+
+      - name: Commit updated manifest
+        run: |
+          if git diff --quiet -- assets/js/image-manifest.json; then
+            echo "Image manifest is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/js/image-manifest.json
+          git commit -m "Update recipe image manifest"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
+
+      - name: Request GitHub Pages rebuild
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${{ github.repository }}/pages/builds" || echo "Pages rebuild request skipped"

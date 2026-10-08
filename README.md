@@ -136,6 +136,13 @@ The supplied source did not include the actual external recipe-photo files or th
 - Back to Top and Recipe-page wave decoration are removed.
 
 
-## v108 image behavior
-
-Runtime image display does not depend on image-manifest.json. Recipe image paths use the recipe slug and the standard `hero.jpg` / `recipe.jpg` naming, while existing explicit image paths in data.js remain supported so the v107 design and existing GitHub-hosted images are preserved. Step photos support 0–4 explicitly listed images per step. New GitHub images can use the standard `step-01-01.jpg` through `step-04-04.jpg` naming when added to a recipe folder.
+## v108 image workflow
+- `hero.jpg` is the single recipe hero/card image source. `cardImage` is not used for cards.
+- `recipe.jpg` is used for the recipe photo area when supplied.
+- Step images use `step-01-01.jpg` through `step-04-04.jpg`; each step supports 0–4 images.
+- Image files may be uploaded directly to GitHub under `images/recipes/<recipe-slug>/`.
+- The existing GitHub Action regenerates `assets/js/image-manifest.json` automatically after image uploads; the manifest is a generated cache, not a manually maintained source of truth.
+- Existing `.JPG`/`.JPEG` files are recognized by the manifest generator.
+- Source values are exactly: Restaurant, Grocery Store Find, Movie & TV, Book, Travel, Family & Tradition, Memory, Internet Find, Midnight Experiment.
+- The Usuals is a separate Recipes category, not a Source.
+- Navigation: View All, By Source, By Course, By Cuisine, The Usuals.

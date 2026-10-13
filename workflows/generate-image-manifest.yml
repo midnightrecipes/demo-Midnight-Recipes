@@ -1,0 +1,61 @@
+name: Generate Recipe Image Manifest and Sitemap
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'images/recipes/**'
+      - 'assets/js/data.js'
+      - 'CNAME'
+      - '.github/scripts/**'
+      - '.github/workflows/generate-image-manifest.yml'
+  workflow_dispatch:
+
+# Several uploads in a row used to start several runs at once; an older run could
+# finish last and overwrite the manifest with stale data. Now only the newest run survives.
+concurrency:
+  group: image-manifest
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Generate image manifest
+        run: python .github/scripts/generate-image-manifest.py
+
+      - name: Generate sitemap and robots.txt
+        run: node .github/scripts/generate-sitemap.js
+
+      - name: Commit generated files
+        run: |
+          FILES="assets/js/image-manifest.json sitemap.xml robots.txt"
+          if [ -z "$(git status --porcelain -- $FILES)" ]; then
+            echo "Generated files are already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add $FILES
+          git commit -m "Update generated image manifest and sitemap"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
+
+      - name: Request GitHub Pages rebuild
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${{ github.repository }}/pages/builds" || echo "Pages rebuild request skipped"

@@ -46,22 +46,32 @@
   },
   "chocolate-cream-comfort-pie": {
     "hero": "images/recipes/chocolate-cream-comfort-pie/hero.jpg",
-    "recipe": null,
+    "recipe": "images/recipes/chocolate-cream-comfort-pie/recipe.jpg",
     "steps": {
       "01": [
-        "images/recipes/chocolate-cream-comfort-pie/step-01-01.jpg"
+        "images/recipes/chocolate-cream-comfort-pie/step-01-01.jpg",
+        "images/recipes/chocolate-cream-comfort-pie/step-01-02.jpg",
+        "images/recipes/chocolate-cream-comfort-pie/step-01-03.jpg"
       ],
       "02": [
-        "images/recipes/chocolate-cream-comfort-pie/step-02-01.jpg"
+        "images/recipes/chocolate-cream-comfort-pie/step-02-01.jpg",
+        "images/recipes/chocolate-cream-comfort-pie/step-02-02.jpg",
+        "images/recipes/chocolate-cream-comfort-pie/step-02-03.jpg",
+        "images/recipes/chocolate-cream-comfort-pie/step-02-04.jpg"
       ],
       "03": [
-        "images/recipes/chocolate-cream-comfort-pie/step-03-01.jpg"
+        "images/recipes/chocolate-cream-comfort-pie/step-03-01.jpg",
+        "images/recipes/chocolate-cream-comfort-pie/step-03-02.jpg",
+        "images/recipes/chocolate-cream-comfort-pie/step-03-03.jpg",
+        "images/recipes/chocolate-cream-comfort-pie/step-03-04.jpg"
       ],
       "04": [
-        "images/recipes/chocolate-cream-comfort-pie/step-04-01.jpg"
+        "images/recipes/chocolate-cream-comfort-pie/step-04-01.jpg",
+        "images/recipes/chocolate-cream-comfort-pie/step-04-02.jpg"
       ],
       "05": [
-        "images/recipes/chocolate-cream-comfort-pie/step-05-01.jpg"
+        "images/recipes/chocolate-cream-comfort-pie/step-05-01.jpg",
+        "images/recipes/chocolate-cream-comfort-pie/step-05-02.jpg"
       ]
     }
   },
@@ -81,6 +91,26 @@
       "04": [
         "images/recipes/sweet-potato-ginger-pie/step-04-01.JPG",
         "images/recipes/sweet-potato-ginger-pie/step-04-02.JPG"
+      ]
+    }
+  },
+  "sweet-chili-peanut-chicken": {
+    "hero": "images/recipes/sweet-chili-peanut-chicken/hero.jpg",
+    "recipe": "images/recipes/sweet-chili-peanut-chicken/recipe.jpg",
+    "steps": {
+      "01": [
+        "images/recipes/sweet-chili-peanut-chicken/step-01-01.jpg",
+        "images/recipes/sweet-chili-peanut-chicken/step-01-02.jpg",
+        "images/recipes/sweet-chili-peanut-chicken/step-01-03.jpg",
+        "images/recipes/sweet-chili-peanut-chicken/step-01-04.jpg"
+      ],
+      "02": [
+        "images/recipes/sweet-chili-peanut-chicken/step-02-01.jpg",
+        "images/recipes/sweet-chili-peanut-chicken/step-02-02.jpg"
+      ],
+      "03": [
+        "images/recipes/sweet-chili-peanut-chicken/step-03-01.jpg",
+        "images/recipes/sweet-chili-peanut-chicken/step-03-02.jpg"
       ]
     }
   }

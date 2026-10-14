@@ -1399,11 +1399,11 @@ body[data-page="home"] .category-card .photo-frame{
   appearance:none;-webkit-appearance:none;display:inline-flex;
   align-items:center;justify-content:center;box-sizing:border-box;
   width:40px;height:40px;min-width:40px;min-height:40px;
-  padding:0;margin:0;border:1px solid var(--line);border-radius:0;
-  background:transparent;color:inherit;font:inherit;font-size:18px;line-height:1;
+  padding:0;margin:0;border:1px solid var(--ink);border-radius:50%;
+  background:var(--mint);color:var(--ink);font:inherit;font-size:18px;line-height:1;
   cursor:pointer;touch-action:manipulation;
 }
-#scaleToggle .scale-step-button:hover{background:var(--soft);}
+#scaleToggle .scale-step-button:hover{background:#A8F2C0;}
 #scaleToggle .scale-step-button:focus-visible{outline:2px solid currentColor;outline-offset:2px;}
 
 /* v131: homepage tagline moved above Midnight Dispatches; keep the existing typeface and understated styling. */

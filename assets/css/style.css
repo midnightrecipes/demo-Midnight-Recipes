@@ -1383,65 +1383,28 @@ body[data-page="home"] .category-card .photo-frame{
   line-height:1.9;
 }
 
-/* Quantity multiplier stepper: use only the custom ▲/▼ controls and hide the browser number spinner. */
-#scaleToggle{
-  align-items:center;
-}
-#scaleToggle .scale-stepper{
-  display:inline-flex;
-  align-items:stretch;
-  gap:0;
-}
+/* Quantity multiplier: compact input with separate accessible minus/plus buttons. */
+#scaleToggle{align-items:center;}
+#scaleToggle .scale-stepper{display:inline-flex;align-items:center;gap:6px;}
 #scaleToggle #recipeScale{
-  box-sizing:border-box;
-  width:72px;
-  min-width:72px;
-  margin:0;
-  padding:6px 9px;
-  font:inherit;
-  background:transparent;
-  border:1px solid var(--line);
-  border-right:0;
-  border-radius:0;
-  text-align:center;
-  appearance:textfield;
-  -moz-appearance:textfield;
+  box-sizing:border-box;width:72px;min-width:72px;margin:0;padding:6px 9px;
+  font:inherit;background:transparent;border:1px solid var(--line);
+  border-radius:0;text-align:center;appearance:textfield;-moz-appearance:textfield;
 }
 #scaleToggle #recipeScale::-webkit-outer-spin-button,
 #scaleToggle #recipeScale::-webkit-inner-spin-button{
-  -webkit-appearance:none;
-  appearance:none;
-  margin:0;
+  -webkit-appearance:none;appearance:none;margin:0;
 }
-#scaleToggle .scale-stepper-buttons{
-  display:flex;
-  flex-direction:column;
-  width:24px;
+#scaleToggle .scale-step-button{
+  appearance:none;-webkit-appearance:none;display:inline-flex;
+  align-items:center;justify-content:center;box-sizing:border-box;
+  width:40px;height:40px;min-width:40px;min-height:40px;
+  padding:0;margin:0;border:1px solid var(--line);border-radius:0;
+  background:transparent;color:inherit;font:inherit;font-size:18px;line-height:1;
+  cursor:pointer;touch-action:manipulation;
 }
-#scaleToggle .scale-stepper-buttons button{
-  appearance:none;
-  -webkit-appearance:none;
-  flex:1 1 50%;
-  min-height:50%;
-  margin:0;
-  padding:0;
-  border:1px solid var(--line);
-  border-left:0;
-  background:transparent;
-  color:inherit;
-  font:inherit;
-  font-size:11px;
-  line-height:1;
-  cursor:pointer;
-}
-#scaleToggle .scale-stepper-buttons button:first-child{
-  border-bottom:0;
-}
-#scaleToggle .scale-stepper-buttons button:hover,
-#scaleToggle .scale-stepper-buttons button:focus-visible{
-  background:var(--soft);
-}
-
+#scaleToggle .scale-step-button:hover{background:var(--soft);}
+#scaleToggle .scale-step-button:focus-visible{outline:2px solid currentColor;outline-offset:2px;}
 
 /* v131: homepage tagline moved above Midnight Dispatches; keep the existing typeface and understated styling. */
 .home-tagline{
@@ -1554,7 +1517,3 @@ body[data-page="home"] .category-card .photo-frame{
 /* The info link remains a separate interactive element, not nested inside the checkbox label. */
 .recipe-card .ing li > .ingredient-info{display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:44px;margin-left:0;}
 
-/* Larger touch targets for the quantity stepper, with unchanged ▲/▼ glyphs. */
-#scaleToggle .scale-stepper-buttons{width:44px;}
-#scaleToggle .scale-stepper-buttons button{min-height:44px;}
-#scaleToggle #recipeScale{min-height:88px;}

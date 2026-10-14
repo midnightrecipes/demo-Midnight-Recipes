@@ -1,13 +1,54 @@
 {
   "addictive-spicy-taiwan-ground-pork": {
     "hero": "images/recipes/addictive-spicy-taiwan-ground-pork/hero.jpg",
-    "recipe": null,
-    "steps": {}
+    "recipe": "images/recipes/addictive-spicy-taiwan-ground-pork/recipe.jpg",
+    "steps": {
+      "01": [
+        "images/recipes/addictive-spicy-taiwan-ground-pork/step-01-01.JPG",
+        "images/recipes/addictive-spicy-taiwan-ground-pork/step-01-02.JPG",
+        "images/recipes/addictive-spicy-taiwan-ground-pork/step-01-03.JPG"
+      ],
+      "02": [
+        "images/recipes/addictive-spicy-taiwan-ground-pork/step-02-01.JPG",
+        "images/recipes/addictive-spicy-taiwan-ground-pork/step-02-02.JPG"
+      ],
+      "03": [
+        "images/recipes/addictive-spicy-taiwan-ground-pork/step-03-01.JPG",
+        "images/recipes/addictive-spicy-taiwan-ground-pork/step-03-02.JPG"
+      ],
+      "04": [
+        "images/recipes/addictive-spicy-taiwan-ground-pork/step-04-01.JPG",
+        "images/recipes/addictive-spicy-taiwan-ground-pork/step-04-02.JPG"
+      ]
+    }
   },
   "apple-creme-brulee": {
     "hero": "images/recipes/apple-creme-brulee/hero.jpg",
-    "recipe": null,
-    "steps": {}
+    "recipe": "images/recipes/apple-creme-brulee/recipe.jpg",
+    "steps": {
+      "01": [
+        "images/recipes/apple-creme-brulee/step-01-01.jpg",
+        "images/recipes/apple-creme-brulee/step-01-02.jpg",
+        "images/recipes/apple-creme-brulee/step-01-03.jpg",
+        "images/recipes/apple-creme-brulee/step-01-04.jpg"
+      ],
+      "02": [
+        "images/recipes/apple-creme-brulee/step-02-01.jpg",
+        "images/recipes/apple-creme-brulee/step-02-02.JPG",
+        "images/recipes/apple-creme-brulee/step-02-03.JPG",
+        "images/recipes/apple-creme-brulee/step-02-04.JPG"
+      ],
+      "03": [
+        "images/recipes/apple-creme-brulee/step-03-01.JPG"
+      ],
+      "04": [
+        "images/recipes/apple-creme-brulee/step-04-01.jpg"
+      ],
+      "05": [
+        "images/recipes/apple-creme-brulee/step-05-01.jpg",
+        "images/recipes/apple-creme-brulee/step-05-02.jpg"
+      ]
+    }
   },
   "banana-banana-cream-pie": {
     "hero": "images/recipes/banana-banana-cream-pie/hero.jpg",
@@ -44,6 +85,22 @@
       ]
     }
   },
+  "building-block-pie-crust": {
+    "hero": "images/recipes/building-block-pie-crust/hero.jpg",
+    "recipe": null,
+    "steps": {
+      "01": [
+        "images/recipes/building-block-pie-crust/step-01-01.JPG",
+        "images/recipes/building-block-pie-crust/step-01-02.JPG",
+        "images/recipes/building-block-pie-crust/step-01-03.JPG",
+        "images/recipes/building-block-pie-crust/step-01-04.JPG"
+      ],
+      "02": [
+        "images/recipes/building-block-pie-crust/step-02-01.JPG",
+        "images/recipes/building-block-pie-crust/step-02-02.jpg"
+      ]
+    }
+  },
   "chocolate-cream-comfort-pie": {
     "hero": "images/recipes/chocolate-cream-comfort-pie/hero.jpg",
     "recipe": "images/recipes/chocolate-cream-comfort-pie/recipe.jpg",
@@ -75,22 +132,120 @@
       ]
     }
   },
-  "sweet-potato-ginger-pie": {
-    "hero": "images/recipes/sweet-potato-ginger-pie/hero.jpg",
-    "recipe": "images/recipes/sweet-potato-ginger-pie/recipe.jpg",
+  "classic-pumpkin-pie": {
+    "hero": "images/recipes/classic-pumpkin-pie/hero.jpg",
+    "recipe": "images/recipes/classic-pumpkin-pie/recipe.jpg",
     "steps": {
-      "01": [
-        "images/recipes/sweet-potato-ginger-pie/step-01-01.JPG",
-        "images/recipes/sweet-potato-ginger-pie/step-01-02.JPG"
+      "02": [
+        "images/recipes/classic-pumpkin-pie/step-02-01.jpg",
+        "images/recipes/classic-pumpkin-pie/step-02-02.jpg"
       ],
       "03": [
-        "images/recipes/sweet-potato-ginger-pie/step-03-01.JPG",
-        "images/recipes/sweet-potato-ginger-pie/step-03-02.JPG",
-        "images/recipes/sweet-potato-ginger-pie/step-03-03.JPG"
+        "images/recipes/classic-pumpkin-pie/step-03-01.jpg"
       ],
       "04": [
-        "images/recipes/sweet-potato-ginger-pie/step-04-01.JPG",
-        "images/recipes/sweet-potato-ginger-pie/step-04-02.JPG"
+        "images/recipes/classic-pumpkin-pie/step-04-01.jpg"
+      ]
+    }
+  },
+  "fun-key-lime-pie": {
+    "hero": "images/recipes/fun-key-lime-pie/hero.jpg",
+    "recipe": "images/recipes/fun-key-lime-pie/recipe.jpg",
+    "steps": {
+      "01": [
+        "images/recipes/fun-key-lime-pie/step-01-01.jpg",
+        "images/recipes/fun-key-lime-pie/step-01-02.jpg",
+        "images/recipes/fun-key-lime-pie/step-01-03.jpg"
+      ],
+      "02": [
+        "images/recipes/fun-key-lime-pie/step-02-01.jpg",
+        "images/recipes/fun-key-lime-pie/step-02-02.jpg",
+        "images/recipes/fun-key-lime-pie/step-02-03.jpg",
+        "images/recipes/fun-key-lime-pie/step-02-04.jpg"
+      ],
+      "03": [
+        "images/recipes/fun-key-lime-pie/step-03-01.jpg",
+        "images/recipes/fun-key-lime-pie/step-03-02.jpg"
+      ],
+      "04": [
+        "images/recipes/fun-key-lime-pie/step-04-01.jpg",
+        "images/recipes/fun-key-lime-pie/step-04-02.jpg"
+      ],
+      "05": [
+        "images/recipes/fun-key-lime-pie/step-05-01.jpg",
+        "images/recipes/fun-key-lime-pie/step-05-02.jpg"
+      ],
+      "06": [
+        "images/recipes/fun-key-lime-pie/step-06-01.jpg"
+      ]
+    }
+  },
+  "mexican-calabaza-en-tacha-pumpkin-pie": {
+    "hero": "images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/hero.jpg",
+    "recipe": "images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/recipe.jpg",
+    "steps": {
+      "02": [
+        "images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step-02-01.jpg",
+        "images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step-02-02.JPG",
+        "images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step-02-03.jpg"
+      ],
+      "03": [
+        "images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step-03-01.JPG",
+        "images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step-03-02.JPG"
+      ],
+      "04": [
+        "images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step-04-01.JPG"
+      ],
+      "05": [
+        "images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step-05-01.JPG"
+      ],
+      "06": [
+        "images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step-06-01.JPG"
+      ]
+    }
+  },
+  "moms-hamburg-steak": {
+    "hero": "images/recipes/moms-hamburg-steak/hero.jpg",
+    "recipe": "images/recipes/moms-hamburg-steak/recipe.jpg",
+    "steps": {
+      "01": [
+        "images/recipes/moms-hamburg-steak/step-01-02.jpg",
+        "images/recipes/moms-hamburg-steak/step-01-03.jpg",
+        "images/recipes/moms-hamburg-steak/step-01-04.jpg"
+      ],
+      "02": [
+        "images/recipes/moms-hamburg-steak/step-02-01.jpg",
+        "images/recipes/moms-hamburg-steak/step-02-02.jpg"
+      ],
+      "03": [
+        "images/recipes/moms-hamburg-steak/step-03-01.jpg"
+      ],
+      "04": [
+        "images/recipes/moms-hamburg-steak/step-04-01.jpg"
+      ]
+    }
+  },
+  "silky-cheesecake": {
+    "hero": "images/recipes/silky-cheesecake/hero.jpg",
+    "recipe": "images/recipes/silky-cheesecake/recipe.jpg",
+    "steps": {
+      "02": [
+        "images/recipes/silky-cheesecake/step-02-01.jpg",
+        "images/recipes/silky-cheesecake/step-02-02.jpg",
+        "images/recipes/silky-cheesecake/step-02-03.jpg"
+      ],
+      "03": [
+        "images/recipes/silky-cheesecake/step-03-01.jpg",
+        "images/recipes/silky-cheesecake/step-03-02.jpg",
+        "images/recipes/silky-cheesecake/step-03-03.jpg",
+        "images/recipes/silky-cheesecake/step-03-04.jpg"
+      ],
+      "04": [
+        "images/recipes/silky-cheesecake/step-04-01.jpg"
+      ],
+      "05": [
+        "images/recipes/silky-cheesecake/step-05-01.jpg",
+        "images/recipes/silky-cheesecake/step-05-02.jpg"
       ]
     }
   },
@@ -111,6 +266,44 @@
       "03": [
         "images/recipes/sweet-chili-peanut-chicken/step-03-01.jpg",
         "images/recipes/sweet-chili-peanut-chicken/step-03-02.jpg"
+      ]
+    }
+  },
+  "sweet-potato-ginger-pie": {
+    "hero": "images/recipes/sweet-potato-ginger-pie/hero.jpg",
+    "recipe": "images/recipes/sweet-potato-ginger-pie/recipe.jpg",
+    "steps": {
+      "01": [
+        "images/recipes/sweet-potato-ginger-pie/step-01-01.JPG",
+        "images/recipes/sweet-potato-ginger-pie/step-01-02.JPG"
+      ],
+      "03": [
+        "images/recipes/sweet-potato-ginger-pie/step-03-01.JPG",
+        "images/recipes/sweet-potato-ginger-pie/step-03-02.JPG",
+        "images/recipes/sweet-potato-ginger-pie/step-03-03.JPG"
+      ],
+      "04": [
+        "images/recipes/sweet-potato-ginger-pie/step-04-01.JPG",
+        "images/recipes/sweet-potato-ginger-pie/step-04-02.JPG"
+      ]
+    }
+  },
+  "tom-kha-gai": {
+    "hero": "images/recipes/tom-kha-gai/hero.jpg",
+    "recipe": "images/recipes/tom-kha-gai/recipe.jpg",
+    "steps": {
+      "01": [
+        "images/recipes/tom-kha-gai/step-01-01.jpg",
+        "images/recipes/tom-kha-gai/step-01-02.jpg"
+      ],
+      "02": [
+        "images/recipes/tom-kha-gai/step-02-01.jpg",
+        "images/recipes/tom-kha-gai/step-02-02.jpg",
+        "images/recipes/tom-kha-gai/step-02-03.jpg"
+      ],
+      "03": [
+        "images/recipes/tom-kha-gai/step-03-01.jpg",
+        "images/recipes/tom-kha-gai/step-03-02.jpg"
       ]
     }
   }

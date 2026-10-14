@@ -10,14 +10,13 @@ window.MIDNIGHT_SITE = {
 
 window.MIDNIGHT_RECIPES = [
   {
-    slug:'chocolate-cream-comfort-pie', title:'Chocolate Cream Comfort Pie', source:'Movie & TV', original:'JULIE AND JULIA (2009)', dish:'Chocolate Cream Pie', cuisine:'American', course:'Baking', courseDisplay:'Baking, Desserts', categories:['Baking','Desserts'], ingredientCategories:['Chocolate','Pie'], dateAdded:'2026-09-26', timeStamp:'12:14 AM',
+    slug:'chocolate-cream-comfort-pie', title:'Chocolate Cream Comfort Pie', source:'Movie & TV', original:'JULIE AND JULIA (2009)', dish:'Chocolate Cream Pie', cuisine:'American', course:'Baking', courseDisplay:'Baking, Desserts', categories:['Baking','Desserts'], ingredientCategories:['Chocolate','Pie'], dateAdded:'2026-09-26', timeStamp:'11:20 PM',
     description:'A late-night chocolate cream pie inspired by Julie & Julia (2009).',
     heroImage:'images/recipes/chocolate-cream-comfort-pie/hero.jpg', recipeImage:'images/recipes/chocolate-cream-comfort-pie/recipe.jpg',
     unitOverrides:{imperial:{'unsalted butter':'tbsp','unsalted butter melted':'tbsp'}},
     integerUnits:{metric:['unsweetened cocoa powder']},
     stepQuantityConversion:true,
     usCupFractions:true,
-    fractionDenominator:16,
     scaleMinimums:{'salt|pinch':1},
     fixedStepPhotoCells:true,
     storyQuote:'“You know what I like about cooking? I love that after a day when nothing is sure, and when I say nothing I mean nothing, you can come home and absolutely know that if you add egg yolks to chocolate and sugar and milk, it will get thick. It’s such a comfort.”',
@@ -31,14 +30,14 @@ window.MIDNIGHT_RECIPES = [
       {name:'WHOLE MILK',details:[['Why Whole Milk','The higher fat content gives the chocolate filling a richer, creamier mouthfeel.'],['Substitute','2% milk works too, but the filling will be slightly lighter.'],['Midnight Fix','If using 2% milk, add 1 Tbsp extra butter for a richer texture.']]}
     ],
     ingredients:[
-      {group:'Crust'},{amount:200,unit:'g',item:'Graham Crackers, Finely Crushed'},{amount:76,unit:'g',imperialAmount:1/3,imperialUnit:'cup',imperialFraction:{num:1,den:3},item:'Unsalted Butter, Melted'},
+      {group:'Crust'},{amount:200,unit:'g',item:'Graham Crackers, Finely Crushed'},{amount:76,unit:'g',imperialAmount:1/3,imperialUnit:'cup',item:'Unsalted Butter, Melted'},
       {group:'Chocolate Filling'},{amount:150,unit:'g',imperialAmount:1,imperialUnit:'cup',item:'Dark Chocolate, Chopped'},{amount:1,unit:'tsp',imperialAmount:1,imperialUnit:'tsp',item:'Espresso Powder'},{amount:3,unit:'Tbsp',imperialAmount:3,imperialUnit:'tbsp',item:'Unsweetened Cocoa Powder'},{amount:4,unit:'',imperialAmount:4,imperialUnit:'',item:'Egg Yolks'},{amount:80,unit:'g',imperialAmount:0.5,imperialUnit:'cup',item:'Granulated Sugar'},{amount:4,unit:'Tbsp',imperialAmount:4,imperialUnit:'tbsp',item:'Cornstarch'},{amount:1,unit:'pinch',imperialAmount:1,imperialUnit:'pinch',item:'Salt'},{amount:500,unit:'ml',imperialAmount:2,imperialUnit:'cup',item:'Whole Milk'},{amount:21,unit:'g',imperialAmount:1.5,imperialUnit:'tbsp',item:'Unsalted Butter'},
       {group:'Topping (optional)'},{amount:237,unit:'ml',imperialAmount:1,imperialUnit:'cup',item:'35% Whipping Cream'},{amount:38,unit:'g',imperialAmount:3,imperialUnit:'tbsp',item:'Granulated Sugar'},{unit:'',item:'Cocoa Powder, Cacao Nibs, or Flaky Sea Salt, to Finish'}
     ],
     stats:{prep:'15 mins',cook:'15 mins',chill:'4 hrs',total:'4 hrs 30 min',serves:'6–8',pan:'23 cm / 9 inch pie dish',quiet:'⭐⭐⭐☆☆'},
     steps:[
       {number:'01',title:'CRUSH IT DOWN',clock:'11:20 PM',paragraphs:[
-        'Preheat your oven to 180°C/350°F.',
+        'Preheat your oven to 175°C / 350°F.',
         'Crush 200g graham crackers finely.',
         '**Food Processor (Fastest):** Pulse for about 30 seconds.',
         '**Quiet Mode (Silent):** Seal in a zip-top bag and roll with a rolling pin—perfect for late-night baking.',
@@ -53,7 +52,7 @@ window.MIDNIGHT_RECIPES = [
         'Remove the pan from the heat.'
       ],stepImages:['images/recipes/chocolate-cream-comfort-pie/step-02-01.jpg','images/recipes/chocolate-cream-comfort-pie/step-02-02.jpg','images/recipes/chocolate-cream-comfort-pie/step-02-03.jpg','images/recipes/chocolate-cream-comfort-pie/step-02-04.jpg']},
       {number:'03',title:'MAKE IT SILKY',clock:'12:28 AM',paragraphs:[
-        'In a separate bowl, whisk 4 egg yolks.',
+        'In a separate bowl, whisk {{qty:Egg Yolks}} egg yolks.',
         'Slowly whisk half of the hot chocolate cream into the yolks to warm them up, then pour the yolk mixture back into the pan.',
         'Return to low heat for 1 minute, whisking constantly until thick and glossy.',
         'Remove from heat, then stir in {{qty:Chocolate Filling::Dark Chocolate, chopped}} chopped dark chocolate and {{qty:Chocolate Filling::Unsalted Butter}} butter until fully melted and smooth.'
@@ -91,7 +90,7 @@ window.MIDNIGHT_RECIPES = [
     categories:['Main Dishes'],
     ingredientCategories:['Pork'],
     dateAdded:'2026-09-27',
-    timeStamp:'11:44 PM',
+    timeStamp:'11:14 PM',
     description:'A fiery Nagoya-inspired Taiwan mince served over rice with a soft-boiled egg.',
     heroImage:'images/recipes/addictive-spicy-taiwan-ground-pork/hero.jpg', recipeImage:'images/recipes/addictive-spicy-taiwan-ground-pork/recipe.jpg',
     unitOverrides:{imperial:{'sesame oil':'tbsp','soy sauce':'tbsp','Shaoxing wine':'tbsp','doubanjiang':'tbsp','sugar':'tsp'}},
@@ -127,7 +126,7 @@ window.MIDNIGHT_RECIPES = [
       {unit:'',item:'Hot Steamed White Rice'},
       {unit:'',item:'Soft-boiled Egg'}
     ],
-    stats:{prep:'10 mins',cook:'20 mins',total:'30 mins',serves:4,quiet:'⭐⭐⭐☆☆'},
+    stats:{prep:'10 mins',cook:'20 mins',total:'30 mins',serves:'4',quiet:'⭐⭐⭐☆☆'},
     steps:[
       {number:'01',title:'BUILD THE CHILI-GARLIC OIL',clock:'11:14 PM',paragraphs:[
         'Add {{qty:sesame oil}} sesame oil, minced {{qty:garlic}}, and {{qty:fresh red chilies}} finely minced fresh red chilies to a cold frying pan.',
@@ -189,7 +188,7 @@ window.MIDNIGHT_RECIPES = [
     categories:['Desserts'],
     ingredientCategories:['Fruit'],
     dateAdded:'2026-09-27',
-    timeStamp:'11:58 PM',
+    timeStamp:'11:20 PM',
     description:'Apple crème brûlée inspired by Amélie (2001), with soft tart apples beneath silky custard and brittle caramel.',
     heroImage:'images/recipes/apple-creme-brulee/hero.jpg', recipeImage:'images/recipes/apple-creme-brulee/recipe.jpg',
     unitOverrides:{metric:{'apples':'g','unsalted butter':'g','brown sugar':'g','lemon juice':'ml','ground cinnamon':'g','whole milk':'ml','35% whipping cream':'ml','granulated sugar':'g','granulated sugar, for brûlée':'g','vanilla extract':'ml'},imperial:{'apples':'cup','unsalted butter':'tbsp','brown sugar':'tbsp','lemon juice':'tbsp','granulated sugar':'tbsp','ground cinnamon':'tsp','vanilla extract':'tsp'}},
@@ -233,10 +232,10 @@ Tonight, I wanted to enjoy it a little differently: soft, slightly tart apples t
       {group:'Brûlée'},
       {unit:'',item:'Granulated Sugar, for Brûlée'}
     ],
-    stats:{prep:'20 mins',cook:'35 mins',total:'55 mins + chilling',serves:6,quiet:'⭐⭐⭐⭐⭐'},
+    stats:{prep:'20 mins',cook:'35 mins',total:'55 mins + chilling',serves:'6',quiet:'⭐⭐⭐⭐⭐'},
     steps:[
       {number:'01',title:'PREHEAT & SOFTEN THE APPLES',clock:'11:20 PM',paragraphs:[
-        'Preheat oven to 140°C / 285°F.',
+        'Preheat your oven to 140°C / 285°F.',
         'Melt {{qty:unsalted butter}} butter over medium heat.',
         'Add {{qty:apples}} apples, {{qty:brown sugar}} brown sugar, {{qty:lemon juice}} lemon juice, {{qty:Ground Cinnamon}} cinnamon, and a pinch of salt.',
         'Cook for 5–7 minutes, until the apples are tender but still hold their shape.',
@@ -245,7 +244,7 @@ Tonight, I wanted to enjoy it a little differently: soft, slightly tart apples t
       ],stepImages:['images/recipes/apple-creme-brulee/step-01-01.jpg','images/recipes/apple-creme-brulee/step-01-02.jpg','images/recipes/apple-creme-brulee/step-01-03.jpg','images/recipes/apple-creme-brulee/step-01-04.jpg']},
       {number:'02',title:'MAKE THE CUSTARD',clock:'11:32 PM',paragraphs:[
         'Heat {{qty:whole milk}} whole milk and {{qty:35% Whipping Cream}} 35% whipping cream over medium-low heat until hot and steaming, but do not boil.',
-        'Whisk 5 egg yolks, {{qty:Granulated Sugar}} sugar, and a pinch of salt gently. Avoid creating too much foam.',
+        'Whisk {{qty:Large Egg Yolks}} egg yolks, {{qty:Granulated Sugar}} sugar, and a pinch of salt gently. Avoid creating too much foam.',
         'Slowly add the hot dairy while whisking.',
         'Stir in {{qty:vanilla extract}} vanilla extract.',
         'Strain through a fine-mesh sieve.',
@@ -290,11 +289,11 @@ Tonight, I wanted to enjoy it a little differently: soft, slightly tart apples t
 
   {
     slug:'mexican-calabaza-en-tacha-pumpkin-pie',
-    title:'Mexican (Calabaza en Tacha) Pumpkin Pie',
+    title:'Mexican (Calabaza en Tacha) Pumpkin Pie', description:'Inspired by Coco and Día de Muertos, this pumpkin pie reimagines calabaza en tacha with warm spices and the comforting flavors of a traditional Mexican seasonal sweet.',
     source:'Movie & TV', sourceSecondary:'Family & Tradition', original:'Coco (2017)', dish:'Calabaza en Tacha-inspired Pumpkin Pie', cuisine:'Mexican',
     course:'Baking', courseDisplay:'Baking, Desserts', categories:['Baking','Desserts'], ingredientCategories:['Vegetable','Pie'],
     dateAdded:'2026-09-27', timeStamp:'11:48 PM',
-    usCupFractions:true, stepQuantityConversion:true, unitOverrides:{metric:{'Cinnamon Stick':'stick'}},
+    usCupFractions:true, stepQuantityConversion:true,
     tags:['Movie','Coco','Pie','Mexican','Pumpkin','DíaDeMuertos','Ofrenda','CalabazaenTacha','Baking','Dessert'],
     heroImage:'images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/hero.jpg',
     recipeTitle:'Calabaza en Tacha Pumpkin Pie', showPan:true,
@@ -320,15 +319,15 @@ Tonight, I'm making a pumpkin pie inspired by Calabaza en Tacha — and taking a
     ingredients:[
       {group:'PIE CRUST',usualSlug:'building-block-pie-crust',usualLabel:'Building Block Pie Crust'},
       {group:'CALABAZA FILLING'},
-      {amount:400,unit:'g',imperialAmount:5/3,imperialUnit:'cup',imperialFraction:{num:5,den:3},item:'Pumpkin Purée'}, {amount:2,unit:'large',imperialAmount:2,imperialUnit:'large',item:'Eggs'}, {amount:180,unit:'ml',imperialAmount:3/4,imperialUnit:'cup',item:'Half & Half / 10% Cream'},
-      {amount:60,unit:'g',imperialAmount:1/3,imperialUnit:'cup',imperialFraction:{num:1,den:3},item:'Dark Brown Sugar'}, {amount:10,unit:'g',imperialAmount:1/2,imperialUnit:'tbsp',item:'Molasses'}, {amount:15,unit:'ml',imperialAmount:1,imperialUnit:'tbsp',item:'Orange Juice'}, {amount:0.25,unit:'tsp',imperialAmount:1/4,imperialUnit:'tsp',item:'Salt'},
+      {amount:400,unit:'g',imperialAmount:5/3,imperialUnit:'cup',item:'Pumpkin Purée'}, {amount:2,unit:'large',imperialAmount:2,imperialUnit:'large',item:'Eggs'}, {amount:180,unit:'ml',imperialAmount:3/4,imperialUnit:'cup',item:'Half & Half / 10% Cream'},
+      {amount:60,unit:'g',imperialAmount:1/3,imperialUnit:'cup',item:'Dark Brown Sugar'}, {amount:10,unit:'g',imperialAmount:1/2,imperialUnit:'tbsp',item:'Molasses'}, {amount:15,unit:'ml',imperialAmount:1,imperialUnit:'tbsp',item:'Orange Juice'}, {amount:0.25,unit:'tsp',imperialAmount:1/4,imperialUnit:'tsp',item:'Salt'},
       {group:'SPICE INFUSION'},
       {amount:0.5,unit:'',imperialAmount:0.5,imperialUnit:'',item:'Cinnamon Stick'}, {amount:2,unit:'',item:'Whole Cloves'}, {amount:1,unit:'',item:'Star Anise'}, {amount:1,unit:'strip',item:'Orange Peel, About 2–3 cm (1 Inch) Long'},
       {group:'INSTRUCTION-ONLY SYRUP',hideFromIngredients:true},
       {amount:35,unit:'g',imperialAmount:2.5,imperialUnit:'tbsp',item:'Dark Brown Sugar',hideFromIngredients:true}, {amount:5,unit:'g',imperialAmount:1,imperialUnit:'tsp',item:'Molasses',hideFromIngredients:true}, {amount:30,unit:'ml',imperialAmount:2,imperialUnit:'tbsp',item:'Orange Juice',hideFromIngredients:true}, {amount:15,unit:'ml',imperialAmount:1,imperialUnit:'tbsp',item:'Water',hideFromIngredients:true}, {amount:1,unit:'strip',imperialAmount:1,imperialUnit:'strip',item:'Orange Peel, About 2–3 cm (1 Inch) Long',hideFromIngredients:true}, {amount:1,unit:'pinch',imperialAmount:1,imperialUnit:'pinch',item:'Salt',hideFromIngredients:true}
     ],
     steps:[
-      {number:'01',title:'MAKE THE CRUST',clock:'11:48 PM',paragraphs:['Preheat your oven to 180°C/350°F.','Start with one of our usual recipes - Building Block Pie Crust.'],stepNote:'**Midnight Shortcut:** Use a good-quality store-bought pie crust. Tonight is about the filling.'},
+      {number:'01',title:'MAKE THE CRUST',clock:'11:48 PM',paragraphs:['Preheat your oven to 175°C / 350°F.','Start with one of our usual recipes - Building Block Pie Crust.'],stepNote:'**Midnight Shortcut:** Use a good-quality store-bought pie crust. Tonight is about the filling.'},
       {number:'02',title:'INFUSE THE SPICES',clock:'12:05 AM',paragraphs:['Squeeze the orange juice and keep the orange peel strip aside for the filling.','Pour {{qty:Half & Half / 10% Cream}} Half & Half into a small saucepan.','Add 1/2 cinnamon stick, 2 whole cloves, 1 star anise, and 1 strip orange peel.','Warm gently over low heat for 10 minutes. Do not let the Half & Half boil.','Turn off the heat and let the spices steep for another 10 minutes.','Remove the cinnamon stick, cloves, and star anise. Remove the orange peel.','Remove the orange peel if the infusion will steep for longer, as prolonged steeping can make it bitter.','While the infused Half & Half is still warm, whisk in {{qty:Dark Brown Sugar}} dark brown sugar and {{qty:Molasses}} molasses until completely dissolved.'],stepImages:['images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step-02-01.jpg','images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step-02-02.JPG','images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step-02-03.jpg']},
       {number:'03',title:'MAKE THE FILLING',clock:'12:18 AM',paragraphs:['In a large bowl, whisk together {{qty:Pumpkin Purée}} pumpkin purée, {{qty:Eggs}} eggs, {{qty:CALABAZA FILLING::Orange Juice}} orange juice, and {{qty:CALABAZA FILLING::Salt}} salt.','Slowly pour in the warm spiced Half & Half mixture.','Whisk gently until everything is smooth and evenly combined.'],stepImages:['images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step-03-01.JPG','images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step-03-02.JPG']},
       {number:'04',title:'BAKE',clock:'12:22 AM',paragraphs:['Pour the pumpkin filling into the crust.','Bake for 40–50 minutes.','The edges should be set while the center still has a slight wobble when the pie is gently shaken.','Remove from the oven.','Let the pie cool completely before adding the syrup.','Don\'t worry if the center looks slightly soft when it first comes out. The custard will continue to set as it cools.'],stepImages:['images/recipes/mexican-calabaza-en-tacha-pumpkin-pie/step-04-01.JPG']},
@@ -351,8 +350,8 @@ Tonight, I'm making a pumpkin pie inspired by Calabaza en Tacha — and taking a
     footerInspiredBy:'Calabaza en Tacha', footerCuisine:'Mexican, Canadian, North American', footerCourse:'Baking · Desserts', footerMainIngredients:['Pumpkin','Orange','Cinnamon','Molasses']
   },
   {
-    slug:'banana-banana-cream-pie', title:'Banana Banana Cream Pie', source:'Midnight Experiment', dish:'Banana Cream Pie', cuisine:'American',
-    course:'Baking', courseDisplay:'Baking, Desserts', categories:['Baking','Desserts'], ingredientCategories:['Fruit','Pie','Eggs','Pantry'], dateAdded:'2026-09-27', timeStamp:'2:50 AM',
+    slug:'banana-banana-cream-pie', title:'Banana Banana Cream Pie', description:'Made for seriously banana-y flavor, this cream pie uses very ripe bananas cooked down into a sweet, concentrated filling beneath a smooth custard.', source:'Midnight Experiment', dish:'Banana Cream Pie', cuisine:'American',
+    course:'Baking', courseDisplay:'Baking, Desserts', categories:['Baking','Desserts'], ingredientCategories:['Fruit','Pie','Eggs','Pantry'], dateAdded:'2026-09-27', timeStamp:'2:55 AM',
     tags:['Dessert','Baking','Banana','Pie'], heroImage:'images/recipes/banana-banana-cream-pie/hero.jpg', recipeImage:'images/recipes/banana-banana-cream-pie/recipe.jpg',
     unitOverrides:{imperial:{'plain biscuits, finely crushed':'cup','unsalted butter, melted':'cup','whole milk':'cup','granulated sugar':'tbsp','cornstarch':'tbsp','35% Whipping Cream':'cup','Granulated Sugar, To Taste':'tbsp'}},
     densityOverrides:{'plain biscuits|cup':100,'granulated sugar|tbsp':35/3},
@@ -387,7 +386,7 @@ What if we just put way more banana in banana cream pie?`,
     ],
     steps:[
       {number:'01',title:'TURN IT UP & MAKE IT JAMMY',clock:'2:55 AM',paragraphs:[
-        'Preheat your oven to 180°C/350°F.',
+        'Preheat your oven to 175°C / 350°F.',
         'Cook {{qty:bananas (approx. 250 g flesh), very ripe and mashed}} very ripe mashed bananas (approx. {{approx:bananas (approx. 250 g flesh), very ripe and mashed}}) in a nonstick skillet over medium-low heat for 8–12 minutes, stirring often.',
         'Keep cooking until the moisture cooks off and the banana turns thick, glossy, and jammy.',
         'No sugar. No butter. Just banana. Set aside.'
@@ -447,7 +446,7 @@ What if we just put way more banana in banana cream pie?`,
     mainIngredients:['Banana','Milk','Egg Yolks','Biscuits'], footerInspiredBy:'Midnight Experiment', footerCuisine:'American', footerCourse:'Baking, Desserts', footerMainIngredients:['Banana','Milk','Egg Yolks','Biscuits']
   },
   {
-    slug:'sweet-potato-ginger-pie', title:'Sweet Potato Ginger Pie', source:'Midnight Experiment', original:'N/A', cuisine:'Chinese', cuisineSecondary:'American',
+    slug:'sweet-potato-ginger-pie', title:'Sweet Potato Ginger Pie', description:'Inspired by Chinese sweet potato ginger dessert soup, this silky pie pairs earthy sweet potato with fresh ginger, cinnamon, and a gentle warming spice.', source:'Midnight Experiment', original:'N/A', cuisine:'Chinese', cuisineSecondary:'American',
     course:'Baking', courseDisplay:'Baking, Desserts', categories:['Baking','Desserts'], ingredientCategories:['Sweet Potato','Ginger','Cream','Cinnamon','Pie'], dateAdded:'2026-09-27', timeStamp:'11:35 PM',
     tags:['Midnight Experiment','Dessert','Baking','Chinese','American','Sweet Potato','Ginger','Pie'], heroImage:'images/recipes/sweet-potato-ginger-pie/hero.jpg', recipeImage:'images/recipes/sweet-potato-ginger-pie/recipe.jpg', usesUsual:'building-block-pie-crust', usCupFractions:true, forceCupUnits:true, stepQuantityConversion:true,
     story:`Inspired by traditional Chinese Sweet Potato Ginger Dessert Soup (番薯姜糖水), a simple sweet soup made by simmering sweet potatoes with fresh ginger and sugar in water.
@@ -472,7 +471,7 @@ The result is silky and creamy, with naturally sweet roasted sweet potato, warm 
     ],
     steps:[
       {number:'01',title:'COOK THE SWEET POTATO',clock:'11:35 PM',paragraphs:[
-        'For the best flavor, roast whole sweet potatoes at 180°C/350°F for 45–60 minutes, until completely soft.',
+        'For the best flavor, roast whole sweet potatoes at 175°C / 350°F for 45–60 minutes, until completely soft.',
         'Midnight Shortcut — Microwave',
         'Peel and cut the sweet potato into chunks. Place in a microwave-safe bowl with a small splash of water and cover.',
         'Midnight Shortcut — Boil',
@@ -480,7 +479,7 @@ The result is silky and creamy, with naturally sweet roasted sweet potato, warm 
       ],stepImages:[]},
       {number:'02',title:'MAKE THE CRUST',clock:'11:45 PM',paragraphs:[
         'While the sweet potatoes are roasting… start making Building Block Pie Crust.',
-        'Prick the bottom well with a fork. Bake in the same oven at 175°C/350°F for 10–12 minutes, until set and lightly golden.',
+        'Prick the bottom well with a fork. Bake in the same oven at 175°C / 350°F for 10–12 minutes, until set and lightly golden.',
         'Midnight Shortcut',
         'Use a good-quality store-bought pie crust. Tonight is about the filling.'
       ],stepImages:[]},
@@ -495,7 +494,7 @@ The result is silky and creamy, with naturally sweet roasted sweet potato, warm 
       ],stepImages:[]},
       {number:'04',title:'BAKE',clock:'12:30 AM',paragraphs:[
         'Pour the filling into the crust.',
-        'Bake at 175°C/350°F for 40–50 minutes.',
+        'Bake at 175°C / 350°F for 40–50 minutes.',
         'The edges should be set and the centre should still have a slight wobble.',
         'Remove from the oven and cool completely at room temperature.',
         'The filling will continue to set as it cools.'
@@ -540,13 +539,14 @@ If you use boiled or microwaved sweet potato, let it steam-dry well before weigh
     ingredientFile:[],
     ingredients:[
       {amount:180,unit:'g',imperialAmount:1.5,imperialUnit:'cup',item:'All-Purpose Flour'},
-      {amount:113,unit:'g',imperialAmount:0.5,imperialUnit:'cup',imperialFraction:{num:1,den:2},item:'Cold Unsalted Butter, Cubed'},
+      {amount:113,unit:'g',imperialAmount:0.5,imperialUnit:'cup',item:'Cold Unsalted Butter, Cubed'},
       {amount:3,unit:'g',imperialAmount:0.5,imperialUnit:'tsp',item:'Salt'},
       {minAmount:45,maxAmount:60,unit:'ml',imperialMinAmount:3,imperialMaxAmount:4,imperialMinUnit:'tbsp',imperialMaxUnit:'tbsp',item:'Cold Water'},
     ],
     stats:{prep:'15 mins',cook:'15 mins',total:'30 mins',serves:'8',pan:'23 cm / 9-inch pie dish',quiet:'⭐⭐⭐⭐☆'},
     steps:[
       {number:'01',title:'MAKE THE CRUST',clock:'',paragraphs:[
+        'Preheat your oven to 175°C / 350°F.',
         {text:'Mix {{amount:0}} flour, {{amount:1}} butter, and {{amount:2}} salt until coarse crumbs form.',amounts:[{value:180,unit:'g',ingredient:'All-Purpose Flour'},{value:113,unit:'g',ingredient:'Cold Unsalted Butter, cubed'},{value:3,unit:'g',ingredient:'Salt'}]},
         {text:'Add {{amount:0}} cold water gradually until the dough just comes together.',amounts:[{min:45,max:60,unit:'ml',ingredient:'Cold Water'}]},
         'Lightly flour your hands and press the dough directly into the pie dish.',
@@ -554,7 +554,7 @@ If you use boiled or microwaved sweet potato, let it steam-dry well before weigh
       ],stepNote:'**Midnight Shortcut:** Use a food processor to make the dough quickly.',stepImages:['images/recipes/building-block-pie-crust/step-01-01.JPG','images/recipes/building-block-pie-crust/step-01-02.JPG','images/recipes/building-block-pie-crust/step-01-03.JPG','images/recipes/building-block-pie-crust/step-01-04.JPG']},
       {number:'02',title:'BLIND-BAKE',clock:'',paragraphs:[
         'Prick the bottom with a fork. Add parchment paper and pie weights.',
-        'Bake at 175°C/350°F for 15 minutes.',
+        'Bake at 175°C / 350°F for 15 minutes.',
         'Remove the weights and parchment, then bake for another 5–7 minutes, until lightly golden.'
       ],stepImages:['images/recipes/building-block-pie-crust/step-02-01.JPG','images/recipes/building-block-pie-crust/step-02-02.jpg']}
     ],
@@ -595,7 +595,7 @@ If you use boiled or microwaved sweet potato, let it steam-dry well before weigh
       {group:'Lime Filling'},
       {amount:300,unit:'ml',item:'Sweetened Condensed Milk'},
       {amount:3,unit:'large',item:'Egg Yolks'},
-      {amount:58,unit:'g',imperialAmount:1/4,imperialUnit:'cup',imperialFraction:{num:2,den:8},item:'Sour Cream'},
+      {amount:58,unit:'g',imperialAmount:1/4,imperialUnit:'cup',item:'Sour Cream'},
       {amount:120,unit:'ml',item:'Fresh Lime Juice'},
       {amount:1,unit:'tbsp',item:'Finely Grated Lime Zest'},
       {group:'Meringue'},
@@ -606,7 +606,7 @@ If you use boiled or microwaved sweet potato, let it steam-dry well before weigh
     stats:{prep:'20 mins',cook:'30 mins',total:'4 hrs 50 mins +',serves:'6–8',pan:'23 cm / 9-inch pie dish',quiet:'⭐☆☆☆☆'},
     steps:[
       {number:'01',title:'CRUSH IT DOWN',clock:'11:20 PM',paragraphs:[
-        'Preheat your oven to 175°C/350°F.',
+        'Preheat your oven to 175°C / 350°F.',
         'Crush {{qty:Graham Cracker Crust::Graham Crackers, Finely Crushed}} graham crackers finely.',
         '**Food Processor (Fastest):** Pulse for about 30 seconds.',
         '**Quiet Mode (Silent):** Seal in a zip-top bag and roll with a rolling pin—perfect for late-night baking.',
@@ -622,7 +622,7 @@ If you use boiled or microwaved sweet potato, let it steam-dry well before weigh
       ],stepImages:['images/recipes/fun-key-lime-pie/step-02-01.jpg','images/recipes/fun-key-lime-pie/step-02-02.jpg','images/recipes/fun-key-lime-pie/step-02-03.jpg','images/recipes/fun-key-lime-pie/step-02-04.jpg']},
       {number:'03',title:'BAKE THE FILLING',clock:'11:40 PM',paragraphs:[
         'Pour the lime filling into the cooled 23 cm / 9-inch graham cracker crust.',
-        'Bake at 175°C/350°F for 10 minutes.',
+        'Bake at 175°C / 350°F for 10 minutes.',
         'The edges should be beginning to set while the center still has a gentle jiggle.',
         'Remove the pie from the oven and let it rest for 5–10 minutes while preparing the meringue.'
       ],stepNote:'**Midnight Shortcut:** You can make the meringue before this step and bake the filling and meringue together for about 10 minutes. Doing them separately is a little less risky and gives you more control.',stepImages:['images/recipes/fun-key-lime-pie/step-03-01.jpg','images/recipes/fun-key-lime-pie/step-03-02.jpg']},
@@ -639,7 +639,7 @@ If you use boiled or microwaved sweet potato, let it steam-dry well before weigh
         'Repeat across the surface, creating a mixture of small and tall peaks.'
       ],stepImages:['images/recipes/fun-key-lime-pie/step-05-01.jpg','images/recipes/fun-key-lime-pie/step-05-02.jpg']},
       {number:'06',title:'BROWN THE MERINGUE & CHILL',clock:'12:00 AM',paragraphs:[
-        'Return the pie to the 175°C/350°F oven for 5–10 minutes, until the peaks are lightly golden.',
+        'Return the pie to the 175°C / 350°F oven for 5–10 minutes, until the peaks are lightly golden.',
         'Watch carefully near the end because the tips can brown quickly.',
         'Remove from the oven and let the pie cool completely at room temperature.',
         'Refrigerate for at least 4 hours, preferably overnight.'
@@ -671,10 +671,10 @@ If you use boiled or microwaved sweet potato, let it steam-dry well before weigh
     cuisine:'Thai',
     course:'Soups',
     courseDisplay:'Soups',
-    categories:['Soups'],
+    categories:['Soups'], ingredientCategories:["Chicken", "Coconut Milk", "Galangal", "Lemongrass", "Mushroom", "Soup"],
     dateAdded:'2026-10-08',
     timeStamp:'11:21 PM',
-    description:'',
+    description:'A Thai coconut chicken soup with galangal, lemongrass, makrut lime leaves, fresh lime, and gentle chili heat—my late-night attempt to see if it deserved its reputation.',
     story:`TasteAtlas had ranked Tom Kha Gai #1 on its list of the world’s best chicken soups. I knew Tom Yum, but somehow Tom Kha Gai had always stayed in the background.
 It sounded like the perfect combination: creamy coconut milk, the bright citrus of makrut lime leaf and lemongrass, fresh lime acidity, and the gentle heat and peppery bite of chilies and galangal.
 The biggest challenge was finding all the ingredients. The actual cooking is surprisingly simple. And in a diverse city like Toronto, hunting down those ingredients might not be as difficult as it sounds.
@@ -683,7 +683,6 @@ If the internet was calling it the world’s best, I had to find out for myself,
     recipeImage:'images/recipes/tom-kha-gai/recipe.jpg',
     stepQuantityConversion:true,
     usCupFractions:true,
-    fractionDenominator:16,
     ingredientFile:[
       {name:'Galangal',details:[
         ['Origin','Southeast Asia'],
@@ -716,16 +715,16 @@ If the internet was calling it the world’s best, I had to find out for myself,
     ],
     ingredients:[
       {group:'Chicken & Coconut Base'},
-      {amount:227,unit:'g',imperialAmount:0.5,imperialUnit:'lb',imperialFraction:{num:1,den:2},item:'Boneless, Skinless Chicken Thighs'},
+      {amount:227,unit:'g',imperialAmount:0.5,imperialUnit:'lb',item:'Boneless, Skinless Chicken Thighs'},
       {amount:150,unit:'g',imperialAmount:1,imperialUnit:'cup',item:'Mushrooms'},
-      {amount:400,unit:'ml',imperialAmount:5/3,imperialUnit:'cup',imperialFraction:{num:5,den:3},item:'Coconut Milk'},
+      {amount:400,unit:'ml',imperialAmount:5/3,imperialUnit:'cup',item:'Coconut Milk'},
       {amount:250,unit:'ml',imperialAmount:1,imperialUnit:'cup',item:'Water or Chicken Stock'},
       {group:'Aromatics'},
       {amount:30,unit:'g',imperialMinAmount:10,imperialMaxAmount:12,imperialMinUnit:'slices',imperialMaxUnit:'slices',item:'Fresh Galangal, Thinly Sliced',compactRange:true},
       {minAmount:1,maxAmount:2,unit:'stalks',imperialMinAmount:1,imperialMaxAmount:2,imperialMinUnit:'stalks',imperialMaxUnit:'stalks',item:'Lemongrass, Bruised and Cut Into Pieces',compactRange:true},
       {minAmount:4,maxAmount:5,unit:'leaves',imperialMinAmount:4,imperialMaxAmount:5,imperialMinUnit:'leaves',imperialMaxUnit:'leaves',item:'Makrut Lime Leaves, Rehydrated if Dried',compactRange:true},
       {amount:0.5,unit:'',imperialAmount:0.5,imperialUnit:'',item:'Onion, Sliced'},
-      {amount:1,unit:'clove',imperialAmount:1,imperialUnit:'clove',item:'Garlic Clove, Lightly Crushed'},
+      {amount:1,unit:'clove',imperialAmount:1,imperialUnit:'clove',item:'Garlic, Lightly Crushed'},
       {minAmount:2,maxAmount:4,unit:'',imperialMinAmount:2,imperialMaxAmount:4,imperialMinUnit:'',imperialMaxUnit:'',item:'Fresh Chilies, Lightly Crushed',compactRange:true},
       {group:'Seasoning'},
       {amount:30,unit:'ml',imperialAmount:2,imperialUnit:'tbsp',item:'Fish Sauce'},
@@ -741,7 +740,7 @@ If the internet was calling it the world’s best, I had to find out for myself,
         'If using dried {{qty:Makrut Lime Leaves, Rehydrated if Dried}} makrut lime leaves, soak them in hot water for 5–10 minutes. Drain and gently tear them.',
         'Thinly slice {{qty:Fresh Galangal, Thinly Sliced}} fresh galangal. Remove the tough outer layers from {{qty:Lemongrass, Bruised and Cut Into Pieces}} lemongrass stalks, bruise them with the back of a knife, and cut them into 5–6 cm pieces.',
         'If using minced lemongrass instead, measure 1½ tbsp.',
-        'Add {{qty:Water or Chicken Stock}} water or chicken stock, galangal, lemongrass, makrut lime leaves, {{qty:Onion, Sliced}} onion, {{qty:Garlic Clove, Lightly Crushed}} garlic clove, and {{qty:Fresh Chilies, Lightly Crushed}} fresh chilies to a saucepan.',
+        'Add {{qty:Water or Chicken Stock}} water or chicken stock, galangal, lemongrass, makrut lime leaves, {{qty:Onion, Sliced}} onion, {{qty:Garlic, Lightly Crushed}} garlic, and {{qty:Fresh Chilies, Lightly Crushed}} fresh chilies to a saucepan.',
         'Bring to a gentle simmer over medium heat and cook for 5–10 minutes, until the broth smells deeply aromatic.'
       ],stepImages:['images/recipes/tom-kha-gai/step-01-01.jpg','images/recipes/tom-kha-gai/step-01-02.jpg','images/recipes/tom-kha-gai/step-01-03.jpg']},
       {number:'02',title:'COOK THE CHICKEN & COCONUT',clock:'11:33 PM',paragraphs:[
@@ -783,10 +782,10 @@ If the internet was calling it the world’s best, I had to find out for myself,
     cuisine:'Thai',
     course:'Main Dishes',
     courseDisplay:'Main Dishes',
-    categories:['Main Dishes'],
+    categories:['Main Dishes'], ingredientCategories:["Chicken", "Peanut", "Chili", "Sauce"],
     dateAdded:'2026-10-08',
     timeStamp:'10:15 PM',
-    description:'',
+    description:'Inspired by sweet chili sauce and crushed peanuts served with Thai fish cakes, this chicken brings together sweet, tangy, spicy, and nutty flavors in a quick homemade dish.',
     story:`I first fell for the combination of sweet chili sauce and peanuts in Thailand, where sweet chili sauce and crushed peanuts were served alongside crispy Thai fish cakes (Tod Mun Pla).
 But actually, the sauce was the best part of the dish. That sweet, tangy, slightly spicy, nutty combination stayed with me long after the trip.
 Thailand isn't exactly a quick midnight trip from Toronto, so I decided to bring that memory home instead. I had some chicken in the fridge and wondered: what if I gave it that sauce?
@@ -795,7 +794,6 @@ This isn't a traditional Thai dish. It's simply my midnight attempt to recreate 
     recipeImage:'images/recipes/sweet-chili-peanut-chicken/recipe.jpg',
     stepQuantityConversion:true,
     usCupFractions:true,
-    fractionDenominator:16,
     ingredientFile:[
       {name:'100% Peanut Butter',details:[
         ['Flavor','Rich, nutty, roasted, creamy'],
@@ -821,7 +819,7 @@ This isn't a traditional Thai dish. It's simply my midnight attempt to recreate 
     ],
     ingredients:[
       {group:'Chicken'},
-      {amount:454,unit:'g',imperialAmount:1,imperialUnit:'lb',imperialFraction:{num:1,den:1},item:'Chicken Thighs, Cut Into Bite-Sized Pieces'},
+      {amount:454,unit:'g',imperialAmount:1,imperialUnit:'lb',item:'Chicken Thighs, Cut Into Bite-Sized Pieces'},
       {amount:20,unit:'g',imperialAmount:2,imperialUnit:'tbsp',item:'Cornstarch'},
       {amount:3,unit:'g',imperialAmount:0.5,imperialUnit:'tsp',item:'Salt'},
       {amount:1,unit:'g',imperialAmount:0.25,imperialUnit:'tsp',item:'Black Pepper'},
@@ -890,13 +888,14 @@ This isn't a traditional Thai dish. It's simply my midnight attempt to recreate 
   },
   {
     slug:'moms-hamburg-steak',
-    title:'Mom’s Hamburg Steak',
+    title:'Mom’s Hamburg Steak', description:'A Japanese-style hamburg steak inspired by my mom’s cooking, served with a rich, sweet-tangy sauce that brings back the comforting taste of home.',
     source:'Memory',
     dish:'Japanese Hamburg Steak',
     cuisine:'Japanese',
     course:'Main Dishes',
     courseDisplay:'Main Dishes',
     categories:['Main Dishes'],
+    ingredientCategories:['Ground Meat','Onion','Eggs','Breadcrumbs','Milk','Sauce'],
     dateAdded:'2026-10-08',
     timeStamp:'01:15 AM',
     story:`In Japan, hamburg steak is one of those dishes that feels like “*haha no aji*” (母の味) — literally, “the taste of mother.” It’s that familiar, nostalgic taste we associate with home and childhood.
@@ -914,7 +913,6 @@ Maybe that’s what *haha no aji* really means. Not that every mom made the same
     recipeImage:'images/recipes/moms-hamburg-steak/recipe.jpg',
     stepQuantityConversion:true,
     usCupFractions:true,
-    fractionDenominator:16,
     ingredientFile:[
       {name:'Ground Meat',details:[
         ['Flavor','Rich, savory, meaty'],
@@ -949,7 +947,7 @@ Maybe that’s what *haha no aji* really means. Not that every mom made the same
     ],
     ingredients:[
       {group:'Hamburg Steak'},
-      {amount:454,unit:'g',imperialAmount:1,imperialUnit:'lb',imperialFraction:{num:1,den:1},item:'Ground Meat'},
+      {amount:454,unit:'g',imperialAmount:1,imperialUnit:'lb',item:'Ground Meat'},
       {amount:120,unit:'g',imperialAmount:1,imperialUnit:'cup',item:'Onion, Very Finely Chopped'},
       {amount:1,unit:'large',imperialAmount:1,imperialUnit:'large',item:'Egg'},
       {amount:50,unit:'g',imperialAmount:0.5,imperialUnit:'cup',item:'Breadcrumbs'},
@@ -1002,7 +1000,7 @@ Maybe that’s what *haha no aji* really means. Not that every mom made the same
 ,
   {
     slug:'silky-cheesecake',
-    title:'Silky Cheesecake',
+    title:'Silky Cheesecake', description:'Inspired by a memorable moment in Haruki Murakami’s Norwegian Wood, this silky cheesecake reflects on comfort, love, and the small things food can say.',
     source:'Book',
     original:'Norwegian Wood (1987) by Haruki Murakami',
     dish:'Cheesecake',
@@ -1060,11 +1058,10 @@ If you choose cheesecake, try this recipe tonight.`,
     showChill:true,
     stepQuantityConversion:true,
     usCupFractions:true,
-    fractionDenominator:16,
     steps:[
       {number:'01',title:'PREPARE THE INGREDIENTS',clock:'10:10 PM',paragraphs:[
         'Bring the cream cheese, sour cream, and eggs close to room temperature.',
-        'Preheat the oven to 150°C / 300°F. Line an 18 cm loaf pan with parchment paper.',
+        'Preheat your oven to 150°C / 300°F. Line an 18 cm loaf pan with parchment paper.',
         'Beat the eggs in a separate bowl and set aside.'
       ],stepImages:[]},
       {number:'02',title:'BUILD THE CREAMY BASE',clock:'10:15 PM',paragraphs:[
@@ -1106,7 +1103,7 @@ If you choose cheesecake, try this recipe tonight.`,
   },
 
   {
-    slug:'classic-pumpkin-pie', title:'Classic Pumpkin Pie', source:'Family & Tradition', dish:'Pumpkin Pie', cuisine:'Canadian', cuisineSecondary:'American',
+    slug:'classic-pumpkin-pie', title:'Classic Pumpkin Pie', description:'My take on a Canadian Thanksgiving classic, with silky pumpkin filling and a warm blend of cinnamon, cloves, and nutmeg—especially comforting on a quiet autumn night.', source:'Family & Tradition', dish:'Pumpkin Pie', cuisine:'Canadian', cuisineSecondary:'American',
     course:'Baking', courseDisplay:'Baking, Desserts', categories:['Baking','Desserts'], ingredientCategories:['Pumpkin','Pie','Eggs','Cream','Cinnamon'],
     dateAdded:'2026-10-11', timeStamp:'12:15 AM',
     heroImage:'images/recipes/classic-pumpkin-pie/hero.jpg', recipeImage:'images/recipes/classic-pumpkin-pie/recipe.jpg',
@@ -1120,11 +1117,11 @@ If you choose cheesecake, try this recipe tonight.`,
     ingredients:[
       {group:'PIE CRUST',usualSlug:'building-block-pie-crust',usualLabel:'Building Block Pie Crust'},
       {group:'PUMPKIN FILLING'},
-      {amount:400,unit:'g',imperialAmount:5/3,imperialUnit:'cup',imperialFraction:{num:5,den:3},item:'Pumpkin Purée'},
-      {amount:70,unit:'g',imperialAmount:1/3,imperialUnit:'cup',imperialFraction:{num:1,den:3},item:'Brown Sugar'},
+      {amount:400,unit:'g',imperialAmount:5/3,imperialUnit:'cup',item:'Pumpkin Purée'},
+      {amount:70,unit:'g',imperialAmount:1/3,imperialUnit:'cup',item:'Brown Sugar'},
       {amount:2,unit:'large',imperialAmount:2,imperialUnit:'large',item:'Eggs'},
-      {amount:79,unit:'ml',imperialAmount:1/3,imperialUnit:'cup',imperialFraction:{num:1,den:3},item:'Whole Milk'},
-      {amount:78,unit:'g',imperialAmount:1/3,imperialUnit:'cup',imperialFraction:{num:1,den:3},item:'35% Whipping Cream'},
+      {amount:79,unit:'ml',imperialAmount:1/3,imperialUnit:'cup',item:'Whole Milk'},
+      {amount:78,unit:'g',imperialAmount:1/3,imperialUnit:'cup',item:'35% Whipping Cream'},
       {amount:1,unit:'tsp',imperialAmount:1,imperialUnit:'tsp',item:'Ground Cinnamon'},
       {amount:0.5,unit:'tsp',imperialAmount:0.5,imperialUnit:'tsp',item:'Ground Ginger'},
       {amount:0.25,unit:'tsp',imperialAmount:0.25,imperialUnit:'tsp',item:'Ground Nutmeg'},

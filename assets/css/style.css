@@ -1536,3 +1536,9 @@ body[data-page="home"] .category-card .photo-frame{
 .mr-cookie-actions button:last-child{background:#294d5a;color:white}
 .mr-privacy-page{max-width:800px;margin:60px auto 100px;padding:0 24px;line-height:1.75;color:#20282b}
 .mr-privacy-page h1{font-size:clamp(30px,5vw,48px);margin-bottom:10px}.mr-privacy-page h2{font-size:22px;margin-top:32px;margin-bottom:8px}.mr-privacy-page p,.mr-privacy-page li{margin-bottom:12px}.mr-privacy-page a{text-decoration:underline}
+
+/* Privacy controls: secondary row beneath copyright */
+.site-footer-privacy{display:flex;justify-content:center;align-items:center;gap:20px;flex-wrap:wrap;margin-top:12px;font-family:var(--body-font);font-size:12px;letter-spacing:0;text-transform:none;}
+.site-footer-privacy a,.site-footer-privacy button{font:inherit;color:var(--ink);text-decoration:none !important;text-transform:none;letter-spacing:0;background:none;border:0;padding:0;margin:0;cursor:pointer;opacity:.72;}
+.site-footer-privacy a:hover,.site-footer-privacy button:hover{opacity:1;text-decoration:none !important;}
+.site-footer-privacy a:focus-visible,.site-footer-privacy button:focus-visible{outline:2px solid currentColor;outline-offset:3px;}
